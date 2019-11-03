@@ -1,4 +1,4 @@
-#N canvas 75 158 1116 461 10;
+#N canvas 84 154 1116 425 10;
 #X obj 19 48 arduino 1;
 #X obj 19 18 r myArduinoIn;
 #X obj 19 78 s myArduinoOut;
@@ -21,6 +21,30 @@
 #X obj 420 80 s joyAY;
 #X obj 495 76 s joyBX;
 #X obj 560 79 s joyBY;
+#X obj 911 28 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 952 28 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 980 28 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 1018 27 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1054 28 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1082 28 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1115 28 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 866 65 s button8;
+#X obj 919 99 s button7;
+#X obj 962 141 s button6;
+#X obj 1011 59 s button5;
+#X obj 1030 111 s button4;
+#X obj 1070 139 s button3;
+#X obj 1104 65 s button2;
+#X obj 1147 28 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1140 99 s button1;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
 #X connect 3 0 5 0;
@@ -31,8 +55,24 @@
 #X connect 3 5 14 0;
 #X connect 3 6 15 0;
 #X connect 3 7 16 0;
+#X connect 4 0 22 0;
+#X connect 4 1 23 0;
+#X connect 4 2 24 0;
+#X connect 4 3 25 0;
+#X connect 4 4 26 0;
+#X connect 4 5 27 0;
+#X connect 4 6 28 0;
+#X connect 4 7 36 0;
 #X connect 4 11 6 0;
 #X connect 5 0 8 0;
 #X connect 10 0 17 0;
 #X connect 11 0 18 0;
 #X connect 12 0 19 0;
+#X connect 22 0 29 0;
+#X connect 23 0 30 0;
+#X connect 24 0 31 0;
+#X connect 25 0 32 0;
+#X connect 26 0 33 0;
+#X connect 27 0 34 0;
+#X connect 28 0 35 0;
+#X connect 36 0 37 0;
