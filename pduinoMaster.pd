@@ -8,7 +8,7 @@
 #X floatatom 1271 31 5 0 0 0 - - -;
 #X obj 1299 -3 pduinoDigitalOutput, f 57;
 #X obj 247 74 s potL;
-#X text 125 65;
+#X text 125 65 comment;
 #X floatatom 316 43 5 0 0 0 - - -;
 #X floatatom 369 44 5 0 0 0 - - -;
 #X floatatom 418 43 5 0 0 0 - - -;
@@ -45,6 +45,8 @@
 #X obj 1147 28 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 1140 99 s button1;
+#X obj 618 84 s joyCX;
+#X obj 686 85 s joyCY;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
 #X connect 3 0 5 0;
@@ -68,6 +70,10 @@
 #X connect 10 0 17 0;
 #X connect 11 0 18 0;
 #X connect 12 0 19 0;
+#X connect 13 0 20 0;
+#X connect 14 0 21 0;
+#X connect 15 0 38 0;
+#X connect 16 0 39 0;
 #X connect 22 0 29 0;
 #X connect 23 0 30 0;
 #X connect 24 0 31 0;
